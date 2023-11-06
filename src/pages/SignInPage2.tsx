@@ -2,13 +2,13 @@ import React from "react";
 import style from '../css/SignIn.module.css'
 import Button from '../components/Button'
 import Button2 from '../components/btn_signIn2'
-// import { useNavigate } from "react-router-dom"; 다시
+import { useNavigate } from "react-router-dom";
 
 export default function SignInPage2() {
-//   const gotoMain = useNavigate(); 다시
+  const gotoMain = useNavigate();
 
   function gotoHome(){
-    // gotoMain('/'); 다시
+    gotoMain('/');
   }
   return (
     <div className={style.box}>

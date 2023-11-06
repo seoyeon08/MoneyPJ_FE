@@ -2,13 +2,13 @@ import React from "react";
 import style from '../css/SignIn.module.css'
 import Button from "../components/Button";
 import NikName from "../components/nikname";
-// import { useNavigate } from "react-router-dom"; 다시
+import { useNavigate } from "react-router-dom";
 
 function SignInPage1() {
-//   const gotoNext = useNavigate(); 다시
+  const gotoNext = useNavigate();
 
   function gotoPattern(){
-    // gotoNext('/SignInPage2'); 다시
+    gotoNext('/SignInPage2');
   }
   return (
     <div className={style.box}>
