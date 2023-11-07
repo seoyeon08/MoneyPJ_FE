@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import style from '../css/Nav.module.css'
+import React from "react";
 
 function Nav() {
   // const loginCheck = useRecoilValue(Login);
