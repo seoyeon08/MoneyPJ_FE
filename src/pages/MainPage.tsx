@@ -3,8 +3,8 @@ import Nav from '../components/Nav'
 import style from '../css/mainPage.module.css'
 import Img1 from '../assets/img/Main_Img1.png'
 import Img2 from '../assets/img/Main_Img2.png'
-import Pink from '../assets/img/Main_Pink.png'
 import Yellow from '../assets/img/Main_Yellow.png'
+import BtnPink from '../components/Btn_pink'
 
 function MainPage() {
 
@@ -35,7 +35,7 @@ function MainPage() {
         <div className={style.right}>
           <img className={style.bg2} alt="bg2" src={Img2} />
           <img className={style.bg1} alt="bg1" src={Img1} />
-          <img className={style.bg3} alt="bg3" src={Pink} />
+          <BtnPink />
         </div>
       </div>
         
