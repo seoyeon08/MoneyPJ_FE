@@ -1,4 +1,4 @@
-//import axios from "axios"; 다시
+import axios from "axios";
 import React, { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 
@@ -11,7 +11,7 @@ function RedirectPage() {
 
     useEffect(() => {
         console.log(process.env.REACT_APP_KAKAO_URL);
-        // axios.post(); 다시
+        // axios.post();
     });
 
 
